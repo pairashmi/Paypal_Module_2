@@ -1,0 +1,20 @@
+Week 5 commands
+ps -aux |grep "totally_not_malicious"
+sudo kill 24545
+ps -aux |grep "razzle"
+sudo kill 24551
+
+Week 6 commands
+
+ls /var/log
+sudo cat /var/log/syslog
+sudo du -a /home |sort -n -r |head -n 5
+sudo rm /home/rashmipai/corrupted_file
+sudo apt-get install -f
+dpkg -s vlc
+sudo chmod 777 super_secret_file.txt
+ps ax
+ps -aux |grep "totally_not_malicious"
+sudo kill 27630
+
+
